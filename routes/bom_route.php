@@ -1,0 +1,13 @@
+<?php
+if($page=="create-bom"){
+	$found=include("views/pages/ui/bom/create_bom.php");
+}elseif($page=="edit-bom"){
+	$found=include("views/pages/ui/bom/edit_bom.php");
+}elseif($page=="boms"){
+	$found=include("views/pages/ui/bom/manage_bom.php");
+}elseif($page=="details-bom"){
+	$found=include("views/pages/ui/bom/details_bom.php");
+}elseif($page=="view-bom"){
+	$found=include("views/pages/ui/bom/view_bom.php");
+}
+?>

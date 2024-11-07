@@ -1,0 +1,13 @@
+<?php
+if($page=="create-seller"){
+	$found=include("views/pages/seller/create_seller.php");
+}elseif($page=="edit-seller"){
+	$found=include("views/pages/seller/edit_seller.php");
+}elseif($page=="sellers"){
+	$found=include("views/pages/seller/manage_seller.php");
+}elseif($page=="details-seller"){
+	$found=include("views/pages/seller/details_seller.php");
+}elseif($page=="view-seller"){
+	$found=include("views/pages/seller/view_seller.php");
+}
+?>

@@ -1,0 +1,13 @@
+<?php
+if($page=="create-productcategories"){
+	$found=include("views/pages/ui/productcategories/create_productcategories.php");
+}elseif($page=="edit-productcategories"){
+	$found=include("views/pages/ui/productcategories/edit_productcategories.php");
+}elseif($page=="product_categoriess"){
+	$found=include("views/pages/ui/productcategories/manage_productcategories.php");
+}elseif($page=="details-productcategories"){
+	$found=include("views/pages/ui/productcategories/details_productcategories.php");
+}elseif($page=="view-productcategories"){
+	$found=include("views/pages/ui/productcategories/view_productcategories.php");
+}
+?>
